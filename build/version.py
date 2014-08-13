@@ -80,7 +80,7 @@ def subst_file(file_name, values):
   This is like subst_template, except it operates on a file.
   """
   template = open(file_name, 'r').read()
-  return subst_template(template, values);
+  return subst_template(template, values)
 
 
 def write_if_changed(file_name, contents):
